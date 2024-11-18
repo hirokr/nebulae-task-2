@@ -41,7 +41,7 @@ const Header = () => {
       <div className='absolute right-10'>
         <label className={styles.burger} htmlFor='burger'>
           <input type='checkbox' id='burger' />
-          <span></span>
+          <span>None</span>
           <span></span>
           <span></span>
         </label>
