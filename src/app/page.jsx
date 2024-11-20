@@ -4,7 +4,7 @@ import ChangeText from "@/components/changeText/ChangeText";
 
 export default function Home() {
   return (
-    <div className="absolute top-0">
+    <div className="absolute top-0 right-0">
       <ChangeText/>
       Rahul
     </div>

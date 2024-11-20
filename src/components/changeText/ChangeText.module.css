@@ -1,7 +1,4 @@
 .sliding {
-  position: relative;
-  --height-of-loader: 100%;
-  --loader-color: #0071e2;
   margin: 5px 0;
   width: 100%;
   display: flex;
