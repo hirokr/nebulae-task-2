@@ -1,0 +1,55 @@
+.sliding {
+  position: relative;
+  --height-of-loader: 100%;
+  --loader-color: #0071e2;
+  margin: 5px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moving{
+  position: relative;
+  --height-of-loader: 100%;
+  --loader-color: #0071e2;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.moving:before {
+  content: "";
+  position: absolute;
+  background: var(--loader-color);
+  width: 0%;
+  left: 0;
+  height: 100%;
+  animation: moving 2s ease-in-out infinite;
+}
+
+
+
+@keyframes moving {
+  0% {
+    opacity: 1;
+    width: 0;
+    left: 0;
+    
+  }
+  25% {
+    opacity: 1;
+    width: 100%;
+  }
+  50% {
+    opacity: 1;
+    width: 0;
+    right: 0;
+    left: unset;
+  }
+
+  51%,100% {
+    opacity: 0;
+    width: 0;
+    
+  }
+}

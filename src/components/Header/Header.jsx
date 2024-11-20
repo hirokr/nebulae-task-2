@@ -7,7 +7,7 @@ import { useState } from "react";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className={`relative py-7 justify-center items-center flex gap-10`}>
+    <header className={`relative py-7 justify-center items-center flex bg-transparent gap-10 z-50 text-white`}>
       <nav
         className={`relative w-full ml-[3%] flex justify-around s_lg:px-[5%] gap-10 items-center `}
       >
@@ -45,7 +45,7 @@ const Header = () => {
           <div
             className={styles.button}
           >
-            <button className='relative text-black'>Quick Enquiry</button>
+            <button className='relative '>Quick Enquiry</button>
           </div>
         </div>
       </nav>
