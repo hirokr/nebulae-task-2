@@ -20,7 +20,7 @@ const ChangeText = () => {
     <div
       className={`h-screen w-[100vw] text-white bg-[url("/main-bg-4.jpeg")] flex justify-center items-center font-mono relative`}
     >
-      <section className='w-1/2 text-4xl s_lg:text-6xl s_wide:text-8xl flex flex-col justify-center items-center relative'>
+      <section className='w-1/2  text-3xl s_sm:text-4xl  s_lg:text-6xl s_wide:text-8xl flex flex-col justify-center items-center relative'>
         <h1 className={`${styles.sliding} ${animation ? `${styles.moving}` : ""}`}>
           {text[textIndex][0]}
         </h1>
