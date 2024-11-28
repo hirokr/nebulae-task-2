@@ -2,13 +2,13 @@ export const navLinks = [
   {
     title: "About",
     link: "#",
-    desc: "At Acodez, we're obsessed with quality.",
+    desc: "At Acodez, we're sdfgobsessed with quality.",
     works: [{ title: "Our Profile", link: "#" }],
   },
   {
     title: "Awards",
     link: "#",
-    desc: "At Acodez, we're obsessed with quality.",
+    desc: "At Acodez, we're obsessdfgsdfsed with quality.",
     works: [{ title: "Awards & Accolades", link: "#" }],
   },
   {
@@ -32,7 +32,7 @@ export const navLinks = [
   {
     title: "Products",
     link: "#",
-    desc: "At Acodez, we're obsessed with quality.",
+    desc: "At Acodez, wsdfgdsfge're obsessed with quality.",
     works: [
       { title: "Acowebs", link: "#" },
       { title: "E-Learning App", link: "#" },
@@ -41,13 +41,13 @@ export const navLinks = [
   {
     title: "Work",
     link: "#",
-    desc: "At Acodez, we're obsessed with quality.",
+    desc: "At Acodez, we'resdfgsdfg obsessed with quality.At Acodez, we'resdfgsdfg obsessed with quality.At Acodez, we'resdfgsdfg obsessed with quality.At Acodez, we'resdfgsdfg obsessed with quality.",
     works: [{ title: "Our Profile", link: "#" }],
   },
   {
     title: "Technologies",
     link: "#",
-    desc: "At Acodez, we're obsessed with quality.",
+    desc: "At Acodez, we're obsessed with quality.At Acodez, we're obsessed with quality.At Acodez, we're obsessed with quality.At Acodez, we're obsessed with quality.At Acodez, we're obsessed with quality.",
     works: [
       { title: "Websites", link: "#" },
       { title: "Applications", link: "#" },
@@ -60,7 +60,7 @@ export const navLinks = [
   {
     title: "Careers",
     link: "#",
-    desc: "At Acodez, we're obsessed with quality.",
+    desc: "At Acodez, we're obsessed with qualisdfgty.",
     works: [{ title: "Our Profile", link: "#" }],
   },
   {
