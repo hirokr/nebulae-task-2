@@ -25,7 +25,7 @@ export const navLinks = [
       { title: "Branding", link: "#" },
       { title: "Interface Design", link: "#" },
       { title: "Emerging Technology Services", link: "#" },
-      { title: "IJI Solutions", link: "#" },
+      { title: "UI Solutions", link: "#" },
 
     ],
   },

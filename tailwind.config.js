@@ -36,6 +36,7 @@ module.exports = {
         nav_text: "16px",
       },
       screens: {
+        ssm:"600px",
         s_sm: "764px",
         s_lg: "1110px",
         s_wide: "1280px",

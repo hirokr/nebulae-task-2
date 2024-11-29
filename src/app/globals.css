@@ -64,3 +64,6 @@ h2{
   font-size:25px ;
 }
 
+.li_hover{
+  @apply p-1 hover:text-hoverColor transition-all duration-500 before:block before:absolute before:inset-1  before:bg-hoverColor before:scale-x-0 hover:before:scale-x-100 before:duration-500 before:h-[1px] before:rounded-3xl before:top-full relative inline-block
+}
