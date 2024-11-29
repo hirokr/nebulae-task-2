@@ -4,7 +4,6 @@ import { IoMdHome } from "react-icons/io";
 import styles from "./header.module.css";
 import { useState } from "react";
 import DropMenu from "../dropMenu/dropMenu";
-import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 const Header = () => {
