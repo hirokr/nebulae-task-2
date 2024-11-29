@@ -17,6 +17,19 @@ module.exports = {
         openSans: "var(--open)",
         mono: "var(--mono)",
       },
+      animation: {
+        fade: "fadeIn 1s ease-in-out",
+      },
+
+      keyframes: {
+        fadeIn: {
+          from: { opacity: 0 },
+          to: { opacity: 1 },
+        },
+      },
+      listStyleType: {
+        arrow: ">",
+      },
       fontSize: {
         xs: ["12px", "16px"],
         sm: ["14px", "20px"],
@@ -36,10 +49,10 @@ module.exports = {
         nav_text: "16px",
       },
       screens: {
-        ssm:"600px",
+        ssm: "600px",
         s_sm: "764px",
         s_lg: "1110px",
-        s_wide: "1280px",
+        s_wide: "1200px",
       },
     },
   },

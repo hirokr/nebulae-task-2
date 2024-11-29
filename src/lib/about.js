@@ -13,7 +13,7 @@ export const about = [
       "IoT Applications",
       "Big Data Services",
     ],
-    extra: None,
+    extra: null,
   },
   {
     img: { fg: "/bg svgs/ux.svg", bg: "/bg svgs/ux-bg.svg" },
@@ -98,9 +98,9 @@ export const about = [
       "We're a Google Partner and we offer unique digital marketing solutions that'd load your inbox with inquiries.",
     doings: [
       "Inbound Marketing",
-      "Search Engine Optimization(SEO)",
+      "Search Engine Optimization",
       "Social Media Marketing",
-      "Search Engine Marketing(SEM)",
+      "Search Engine Marketing",
       "Email Marketing",
       "Analytics Consultation",
     ],

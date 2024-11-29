@@ -93,17 +93,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='s_lg:col-span-2 s_lg:ml-20 s_lg:max-w-[80%]'>
+        <div className='s_lg:col-span-2 s_lg:ml-20 s_lg:max-w-[80%] flex flex-col justify-between'>
           <h1 className='text-[1.2rem] mb-3'>Newsletter</h1>
           <form
             action='#'
-            className='flex items-center text-[.6rem] ssm:text-[.9rem] w-full'
+            className='flex items-center text-[.6rem] ssm:text-[.9rem] w-full '
           >
             <input
               type='email'
               placeholder='Your Email Address'
               required
-              className='w-full px-4 py-2 text-gray-700 border-[1px] border-gray-300 focus:outline-none focus:border-blue-500 transition-all duration-500'
+              className='w-full px-4 py-2 text-gray-700 border-[1px] border-gray-300 focus:outline-none transition-all duration-500 '
             />
             <button
               className='min-w-32 px-4 py-2 text-white bg-hoverColor hover:scale-110 transition-all duration-500 hover:shadow-2xl

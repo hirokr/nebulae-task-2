@@ -67,7 +67,7 @@
   @apply p-1 hover:text-hoverColor transition-all duration-500 before:block before:absolute before:inset-1  before:bg-hoverColor before:scale-x-0 hover:before:scale-x-100 before:duration-500 before:h-[1px] before:rounded-3xl before:top-full relative inline-block
 }
 
-/* From Uiverse.io by JaydipPrajapati1910 */ 
+
 .button {
   @apply relative hidden text-lg s_sm:block bg-transparent border-hoverColor border-2 rounded-full py-3 px-5 s_wide:py-3 s_wide:px-5  ;
 
