@@ -10,7 +10,7 @@ const AboutCard = ({ data }) => {
   const change  = (x) =>{
     setTimeout(() => {
       setHovered(x);
-    }, 150);
+    }, 100);
   }
   return (
     <div
