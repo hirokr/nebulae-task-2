@@ -7,13 +7,18 @@ const AboutCard = ({ data }) => {
   const { img, title, extra, doings, description } = data;
   const { fg, bg } = img;
   const [hovered, setHovered] = useState(false);
+  const change  = (x) =>{
+    setTimeout(() => {
+      setHovered(x);
+    }, 150);
+  }
   return (
     <div
       onMouseEnter={() => {
-        setHovered(true);
+        change(true);
       }}
       onMouseLeave={() => {
-        setHovered(false);
+        change(false);
       }}
       className={` group w-full s_lg:w-[18rem] p-6 h-[23rem] transition-all duration-500 hover:bg-hoverColor hover:text-white shadow-lg`}
     >
