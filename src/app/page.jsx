@@ -4,6 +4,7 @@ import About from "@/components/About/About";
 import Award from "@/components/awards/Award";
 import ChangeText from "@/components/changeText/ChangeText";
 import Footer from "@/components/Footer";
+import Mascot from "@/components/Mascot/Mascot";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <ChangeText className='' />
       <About />
       <Award/>
+      <Mascot/>
       <Footer />
     </div>
   );

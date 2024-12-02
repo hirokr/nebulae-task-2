@@ -52,7 +52,7 @@ const Footer = () => {
         <div className='s_lg:ml-5 h-full flex flex-col justify-between gap-5'>
           <h1 className='text-[1.2rem] mb-3'>Contact US</h1>
           <div className='flex flex-col justify-between h-full'>
-            <div className='flex text-[.9rem] s_lg:text-[1.2rem] text-gray-600 items-center group mb-2'>
+            <div className='flex text-[.9rem] s_lg:text-[1.1rem] text-gray-600 items-center group mb-2'>
               <span className='p-[6px]  border-[2px] border-hoverColor  rounded-full text-hoverColor group-hover:bg-hoverColor group-hover:text-white'>
                 <MdOutlineEmail className='w-5 h-5' />
               </span>
